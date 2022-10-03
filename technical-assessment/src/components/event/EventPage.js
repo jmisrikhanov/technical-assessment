@@ -1,11 +1,10 @@
 import React, { useContext, useEffect } from "react";
-import BirthdayCake from "../../assets/images/Birthday-cake.png";
 import { AppDataContext } from "../../context/AppContext";
 import Image from "../common/img/Image";
 import CalendarSvg from "../common/svg-comp/Calendar";
 import LocationSvg from "../common/svg-comp/Location";
 import StrokeSvg from "../common/svg-comp/Stroke";
-import styles from "./Event.module.css";
+import styles from "./EventPage.module.css";
 import { useNavigate } from "react-router-dom";
 
 const Event = () => {
@@ -20,7 +19,7 @@ const Event = () => {
       <div className={styles["birth-cake"]}>
         <Image src={data?.photo} alt="event image" className={styles.image} />
       </div>
-      <div>
+      <div className={styles["event-data"]}>
         <div
           className={styles["event-name"]}
           style={{ alignSelf: "flex-start" }}
