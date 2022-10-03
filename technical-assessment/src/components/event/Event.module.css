@@ -1,0 +1,193 @@
+.event-page-container{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: center;
+  justify-self: flex-start;
+}
+
+.birth-cake{
+  margin-block-start: 10rem;
+  margin-left: 5rem;
+}
+
+.event-name h1{
+  margin-block-start: 10rem;
+  font-size: 2rem;
+  margin-bottom: .8rem;
+  color: purple;
+  font-weight: bold;
+}
+
+.event-name p{
+  font-size: .9rem;
+  color: gray;
+  margin-bottom: 3rem;
+}
+.event-name p span{
+  font-weight: bold;
+}
+
+.purple-p{
+  color: purple;
+  font-weight: bold;
+}
+
+.date-place-div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.margin-right-1rem{
+  margin-right: 1rem;
+}
+
+.date-place-font p{
+  font-size: 0.8rem;
+}
+
+.date-place-font span{
+  font-weight: bold;
+}
+
+.arrow-margin{
+  margin-left: 6rem;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+ }
+ 
+@media only screen and (max-width: 1000px) {
+  .event-page-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      justify-self: flex-start;
+      margin: 2rem 10rem;
+    }
+
+  .birth-cake {
+    margin-block-start: 5rem;
+    margin-left: 0rem;
+  }
+  .event-name h1 {
+    margin-block-start: 1rem;
+    font-size: 2rem;
+    margin-bottom: .8rem;
+    color: purple;
+    font-weight: bold;
+  }
+  .event-name p {
+    font-size: .9rem;
+    color: gray;
+    margin-bottom: 3rem;
+  }
+  .event-name p span {
+    font-weight: bold;
+  }
+  .purple-p {
+    color: purple;
+    font-weight: bold;
+  }
+  .date-place-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .display-flex {
+    display: flex;
+  }
+  .margin-right-1rem {
+    margin-right: 1rem;
+  }
+  .date-place-font p {
+    font-size: 0.8rem;
+  }
+  .date-place-font span {
+    font-weight: bold;
+  }
+  .arrow-margin {
+    margin-left: 6rem;
+ }
+}  
+
+@media only screen and (max-width: 600px) {
+  .event-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    justify-self: flex-start;
+    margin: 0 auto;
+    width: 96%;
+  }
+
+  .image {
+    width: 375px;
+    height: 375px;
+  }
+
+  .birth-cake {
+    margin-block-start: 0rem !important;
+    margin-left: 0rem;
+  }
+
+  .event-name h1 {
+    margin-block-start: 1rem;
+    font-size: 2rem;
+    margin-bottom: .8rem;
+    color: purple;
+    font-weight: bold;
+  }
+
+  .event-name p {
+    font-size: .9rem;
+    color: gray;
+    margin-bottom: 3rem;
+  }
+
+  .event-name p span {
+    font-weight: bold;
+  }
+
+  .purple-p {
+    color: purple;
+    font-weight: bold;
+  }
+
+  .date-place-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .margin-right-1rem {
+    margin-right: 1rem;
+  }
+
+  .date-place-font p {
+    font-size: 0.8rem;
+  }
+
+  .date-place-font span {
+    font-weight: bold;
+  }
+
+  .arrow-margin {
+    margin-left: 6rem;
+  }
+
+}
+

@@ -1,0 +1,12 @@
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:1.25rem ;
+  padding: 1rem;
+  width: 20rem;
+  background: var(--purple-gradient);
+  color: var(--white);
+  border: none;
+  border-radius: 0.625rem;
+}

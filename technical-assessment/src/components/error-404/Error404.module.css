@@ -1,0 +1,17 @@
+.error404-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #EDF2F6;
+}
+
+.error404-content{
+  margin: 1.5rem;
+}
+
+.error404-container>img{
+  border-radius: 1.5rem;
+}
+
